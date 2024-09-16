@@ -1,42 +1,42 @@
 import { useState } from "react";
 
-const intialData = [
-  {
-    id: "1",
-    description: "Salary",
-    amount: 3000,
-    category: "Income",
-    date: "2024-09-01",
-  },
-  {
-    id: "2",
-    description: "Groceries",
-    amount: 150,
-    category: "Expense",
-    date: "2024-09-02",
-  },
-  {
-    id: "3",
-    description: "Electricity Bill",
-    amount: 75,
-    category: "Expense",
-    date: "2024-09-03",
-  },
-  {
-    id: "4",
-    description: "Freelance Work",
-    amount: 500,
-    category: "Income",
-    date: "2024-09-05",
-  },
-  {
-    id: "5",
-    description: "Dining Out",
-    amount: 60,
-    category: "Expense",
-    date: "2024-09-06",
-  },
-];
+// const intialData = [
+//   {
+//     id: "1",
+//     description: "Salary",
+//     amount: 3000,
+//     category: "Income",
+//     date: "2024-09-01",
+//   },
+//   {
+//     id: "2",
+//     description: "Groceries",
+//     amount: 150,
+//     category: "Expense",
+//     date: "2024-09-02",
+//   },
+//   {
+//     id: "3",
+//     description: "Electricity Bill",
+//     amount: 75,
+//     category: "Expense",
+//     date: "2024-09-03",
+//   },
+//   {
+//     id: "4",
+//     description: "Freelance Work",
+//     amount: 500,
+//     category: "Income",
+//     date: "2024-09-05",
+//   },
+//   {
+//     id: "5",
+//     description: "Dining Out",
+//     amount: 60,
+//     category: "Expense",
+//     date: "2024-09-06",
+//   },
+// ];
 
 export default function App() {
   const [items, setItems] = useState([]);
