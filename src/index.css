@@ -1,0 +1,269 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Flexbox layout to align form and list side by side */
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Expense Form */
+.expense-form {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.expense-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expense-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.expense-form input,
+.expense-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.expense-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.expense-form button:hover {
+  background-color: #218838;
+}
+
+/* Expense List */
+.expense-list {
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li p {
+  margin: 0;
+}
+
+li button {
+  background-color: #049cfacc;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
+
+/* Total Stats */
+.stats {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.stats p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.stats span {
+  color: #28a745;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 600px) {
+  .main-section {
+    flex-direction: column;
+  }
+
+  .expense-form,
+  .expense-list {
+    width: 100%;
+  }
+
+  .expense-form form {
+    padding: 10px;
+  }
+
+  .app {
+    padding: 10px;
+  }
+}
+
+/* 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  width: 100%;
+  max-width: 800px; 
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.expense-form {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.expense-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expense-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.expense-form input, 
+.expense-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.expense-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.expense-form button:hover {
+  background-color: #218838;
+}
+
+
+.expense-list {
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li p {
+  margin: 0;
+}
+*/
+/* li button {
+ 
+  background-color: #049cfacc;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
+
+
+.stats {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.stats p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.stats span {
+  color: #28a745;
+}  */
