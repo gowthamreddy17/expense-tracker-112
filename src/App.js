@@ -113,6 +113,7 @@ function ExpenseForm({ onAddItem }) {
 
 function ExpenseList({ onDelete, itemsList }) {
   return (
+  <div className="list-wrapper">
     <ul>
       {itemsList.map((ele) => (
         <ExpenseItem
@@ -125,6 +126,7 @@ function ExpenseList({ onDelete, itemsList }) {
         />
       ))}
     </ul>
+  </div>
   );
 }
 
